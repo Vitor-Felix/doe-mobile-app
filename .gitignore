@@ -1,0 +1,68 @@
+# Node modules
+node_modules/
+
+# Expo
+.expo/
+web-build/
+dist/
+*.expo.dev-tools
+
+# TypeScript
+*.tsbuildinfo
+
+# Babel cache
+.babelrc.js
+babel.config.js
+
+# Metro bundler
+.metro-cache/
+.metro-health-check*
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+ios/build/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+ios/build/
+ios/DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# macOS
+.DS_Store
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Auth keys and certificates
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.pem
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
